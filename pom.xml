@@ -8,7 +8,7 @@
 		<version>2.3.0.M1</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.javatpoint</groupId>
+	<groupId>web.app</groupId>
 	<artifactId>spring-boot-h2-database-example</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>spring-boot-h2-database-example</name>
@@ -27,7 +27,10 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
-
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-thymeleaf</artifactId>
+		</dependency>
 		<dependency>
 			<groupId>com.h2database</groupId>
 			<artifactId>h2</artifactId>

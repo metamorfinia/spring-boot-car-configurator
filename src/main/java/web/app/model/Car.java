@@ -16,13 +16,13 @@ public class Car
 private int id;
 //defining name as column name
 @Column
-private String name;
-//defining age as column name
+private String paint;
+//defining paint as column name
 @Column
-private int age;
-//defining email as column name
+private int engine;
+//defining engine as column name
 @Column
-private String email;
+private String features;
 public int getId() 
 {
 return id;
@@ -31,28 +31,28 @@ public void setId(int id)
 {
 this.id = id;
 }
-public String getName() 
-{
-return name;
-}
-public void setName(String name) 
-{
-this.name = name;
-}
-public int getAge() 
-{
-return age;
-}
-public void setAge(int age) 
-{
-this.age = age;
-}
-public String getEmail() 
-{
-return email;
-}
-public void setEmail(String email) 
-{
-this.email = email;
-}
+public String getPaint()
+    {
+        return paint;
+    }
+    public void setPaint(String paint)
+    {
+        this.paint = paint;
+    }
+    public int getEngine()
+    {
+        return engine;
+    }
+    public void setEngine(int engine)
+    {
+        this.engine = engine;
+    }
+    public String getFeatures()
+    {
+        return features;
+    }
+    public void setFeatures()
+    {
+        this.features = features;
+    }
 }
